@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
-  original sentence = sentence1.split(" ")
+  original_sentence = sentence1.split(" ")
   new_sentence = []
-  reverse_each_word.each.collect{|n| new_sentence << n.reverse_inplace!}
+  original_sentence.each{|n| 
   puts new_sentence
 end
